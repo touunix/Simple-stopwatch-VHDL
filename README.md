@@ -7,7 +7,10 @@ The system enables time measurement with an accuracy of hundredths of a second. 
 The time on the LED display is displayed in the form: SS.DD, and the overflow of 59.99 seconds is signalled by the display of a special overflow symbol "--.--". The system is protected against the vibration of the BTN0 button.
 
 ###### Simulation and Verification results
-<img src="https://user-images.githubusercontent.com/79804729/160259482-022fefcb-b974-48aa-afba-fdd27710c90a.gif" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/79804729/160259482-022fefcb-b974-48aa-afba-fdd27710c90a.gif" width="90%"></img>
+
+###### Overflow effect
+<img src="https://user-images.githubusercontent.com/79804729/160259563-e95490ba-9eba-4e91-821c-d5df33b58053.gif" width="90%"></img>
 
 ###### Files description
 - top_display.vhd - VHDL file with display control of individual display segments
@@ -29,7 +32,7 @@ Czas na wyświetlaczu LED jest wyświetlany w postaci: SS.DD, a przekroczenie cz
 <img src="https://user-images.githubusercontent.com/79804729/160259482-022fefcb-b974-48aa-afba-fdd27710c90a.gif" width="90%"></img>
 
 ###### Efekt przepełnienia
-<img src="https://user-images.githubusercontent.com/79804729/160259563-e95490ba-9eba-4e91-821c-d5df33b58053.gif" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/79804729/160259563-e95490ba-9eba-4e91-821c-d5df33b58053.gif" width="90%"></img>
 
 ###### Opis plików
 - top_display.vhd - plik VHDL z sterowaniem wyświetlania na poszczególnych segmentach wyświetlacza
